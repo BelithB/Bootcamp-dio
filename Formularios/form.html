@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <form name="signup" target="_self" autocomplete="on" onsubmit="alert('Formulario enviado');" method="post" action="#">
+        Nome: <input type="text" name="name" /><br>
+        Idade: <input type="number" name="age" /><br>
+        Senha: <input type="password" name="password" /><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form action="#">
+        <label>Text: </label> <input type="text" /><br>
+        <label>Number: </label> <input type="number" min="0" max="99" step="5"/><br>
+        <label>Range: </label><input type="range" min="0" max="100" /><br>
+        <label>Color: </label><input type="color" /><br>
+        <label>E-mail: </label><input type="email" value="Enviar"/><br>
+        <label>Url: </label><input type="url" /><br>
+        <label>Date: </label><input type="date" /><br>
+        <label>week: </label><input type="week" /><br>
+        <label>Month: </label><input type="month" /><br>
+        <label>Checkbox: </label><input type="checkbox" /></label><input type="checkbox" /><br>
+        <label>Radio: </label><input type="radio" name="aceita" /></label><input type="radio" name="aceita"/><br>
+        <label>Hidden: </label><input type="hidden" /><br>
+        <label>File: </label><input type="file" multiple /><br>
+        <label>Search: </label><input type="search" /><br>
+        <label>Button: </label> <input type="button" value="Enviar"/> <button type="button"> Enviar</button><br>
+    </form>
+</body>
+</html>
