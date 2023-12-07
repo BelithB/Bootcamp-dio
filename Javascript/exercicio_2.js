@@ -32,3 +32,4 @@ if (imc < 18.5) {
 } else {
     console.log ('Obesidade Grave');
 }
+
